@@ -27,9 +27,6 @@ def find_the_cheese(food_list)
   end
       
   contains_cheese 
-  end
-  
-  
 end
 contains_gouda = ["potato", "gouda", "camembert"]
 
