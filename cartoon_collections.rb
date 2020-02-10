@@ -20,7 +20,9 @@ def find_the_cheese(food_list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   cheese_types.inject do |ele|
-    if food_list.includes?
+    if food_list.include?(ele)
+      contains_cheese = ele
+    end  
     
   end
       
