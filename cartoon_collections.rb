@@ -16,9 +16,16 @@ return largest_word.length > 4
 end
 
 def find_the_cheese(food_list)
-  
+  contains_cheese = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
-  puts food_list.include?(cheese_types)
+  
+  cheese_types.inject do |ele|
+    if food_list.includes?
+    
+  end
+      
+  contains_cheese 
+  end
   
   
 end
