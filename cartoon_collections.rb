@@ -21,7 +21,7 @@ def find_the_cheese(food_list)
   
   contains_cheese = food_list & cheese_types
       
-  puts contains_cheese[0] 
+  return contains_cheese[0] 
 end
 contains_cheddar = ["banana", "cheddar", "sock"]
 
