@@ -19,7 +19,7 @@ def find_the_cheese(food_list)
   contains_cheese = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  cheese_types.inject do |ele|
+  cheese_types.map do |ele|
     if food_list.include?(ele)
       contains_cheese = ele
     end  
