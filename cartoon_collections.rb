@@ -23,6 +23,6 @@ def find_the_cheese(food_list)
       
   puts contains_cheese[0] 
 end
-contains_gouda = ["potato", "gouda", "camembert"]
+contains_cheddar = ["banana", "cheddar", "sock"]
 
-find_the_cheese(contains_gouda)
+find_the_cheese(contains_cheddar)
