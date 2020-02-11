@@ -19,10 +19,9 @@ def find_the_cheese(food_list)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  contains_cheese =
+  contains_cheese = food_list & cheese_types
       
   puts contains_cheese 
 end
-contains_gouda = ["potato", "gouda", "camembert"]
 
-find_the_cheese(contains_gouda)
+
